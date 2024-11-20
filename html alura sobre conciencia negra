@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consciência Negra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Consciência Negra</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#figuras">Figuras Importantes</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>O que é a Consciência Negra?</h2>
+            <p>A Consciência Negra é um momento para refletir sobre a luta do povo negro e suas contribuições para a sociedade.</p>
+        </section>
+        <section id="figuras">
+            <h2>Figuras Importantes</h2>
+            <ul>
+                <li>Zumbi dos Palmares</li>
+                <li>Maria Firmina dos Reis</li>
+                <li>Machado de Assis</li>
+            </ul>
+        </section>
+        <section id="galeria">
+            <h2>Galeria de Imagens</h2>
+            <img src="imagem1.jpg" alt="Imagem de Zumbi dos Palmares">
+            <img src="imagem2.jpg" alt="Imagem de Maria Firmina dos Reis">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Consciência Negra. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+git add index.html style.css imagem1.jpg imagem2.jpg
+git commit -m "Adicionando o site sobre a Consciência Negra"
+git push origin main
+
+
+
